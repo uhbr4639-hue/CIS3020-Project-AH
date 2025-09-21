@@ -1,0 +1,12 @@
+{
+  "name": "cis3020-project-ah",
+  "version": "1.0.0",
+  "description": "package.json for CIS3020-Project-AH",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "author": "uhbr4639-hue",
+  "license": "MIT"
+}
