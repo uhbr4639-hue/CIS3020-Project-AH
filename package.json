@@ -2,9 +2,9 @@
   "name": "cis3020-project-ah",
   "version": "1.0.0",
   "description": "package.json for CIS3020-Project-AH",
-  "main": "index.js",
+  "main": "FIBMain.html",
   "scripts": {
-    "start": "node index.js",
+    "start": "node FIBMain.html",
     "test": "echo \"No test specified\" && exit 0"
   },
   "author": "uhbr4639-hue",
