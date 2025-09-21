@@ -7,3 +7,9 @@ h1 {
     font-family: monospace;
     font-weight: normal;
 }
+h2 {
+    text-align: left;
+    font-family: monospace;
+    font-weight: normal;
+	font-size: 28px;
+}
