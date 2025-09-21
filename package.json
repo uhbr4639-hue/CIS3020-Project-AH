@@ -1,12 +1,14 @@
 {
   "name": "cis3020-project-ah",
   "version": "1.0.0",
-  "description": "package.json for CIS3020-Project-AH",
-  "main": "FIBMain.html",
+  "description": "Full-stack site",
+  "main": "server.js",
   "scripts": {
-    "start": "node FIBMain.html",
-    "test": "echo \"No test specified\" && exit 0"
+    "start": "node server.js"
   },
   "author": "uhbr4639-hue",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
