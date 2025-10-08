@@ -86,7 +86,7 @@ function showResult() {
   } else if (score >= questions.length * 0.8) {
     message = "Good job! I can tell you've been studying! Try to get a perfect score next time!";
   } else if (score >= questions.length * 0.5) {
-    message = "Not bad! Keep studying and try again.";
+    message = "Not bad! <a href='keyterms.html' target='_blank'>Keep studying</a> and try again.";
   } else {
     message = "Too bad! <a href='keyterms.html' target='_blank'>Study the key terms</a> and try again!";
   }
