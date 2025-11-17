@@ -26,3 +26,12 @@ h3 {
   width: 100%;
   text-align: center;
 }
+.transactions ul {
+    list-style-position: inside;
+}
+
+.highest-expense {
+    background-color: #ffcccc; 
+    color: #dc3545;             
+    font-weight: bold;
+}

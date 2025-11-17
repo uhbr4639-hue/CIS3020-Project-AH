@@ -1,0 +1,29 @@
+<head>
+    
+    <title>Budget Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-background">
+    <div class="container">
+        <h1>Budget Calculator
+		<br><br><br>
+        <div id="balance-display">
+            Your Balance: <span id="balance">0</span>
+        </div>
+
+        <form id="transaction-form">
+            <input type="text" id="name" placeholder="Transaction Name">
+            <input type="number" id="amount" placeholder="Transaction Amount">
+            <button type="submit" id="add-income">Add Income</button>
+            <button type="submit" id="add-expense">Add Expense</button>
+        </form>
+
+        <div class="transactions">
+            Your Transactions:
+            <ul id="transaction-list">
+            </ul>
+        </div>
+    </div>
+    <script src="BudgetCalculator.js"></script>
+	</h1>
+</body>
